@@ -58,7 +58,7 @@ public class Main extends Application {
 		
 		player = new Player("file:///C:/mp.mp4");
 		player.setTop(menu);
-		Scene scene = new Scene(player, 720, 510, Color.BLACK);
+		Scene scene = new Scene(player, 710, 510, Color.BLACK);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 		
